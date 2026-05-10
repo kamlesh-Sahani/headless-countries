@@ -1,0 +1,27 @@
+{
+  "name": "headless-countries",
+  "version": "1.0.0",
+  "description": "Universal, headless utility and data for world countries, currencies, continents, languages, and phone numbers.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "phone",
+    "country",
+    "data",
+    "validation",
+    "format",
+    "headless",
+    "utility"
+  ],
+  "author": "Kamlesh",
+  "license": "MIT"
+}
